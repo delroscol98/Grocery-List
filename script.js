@@ -1,6 +1,7 @@
 const userInput = document.getElementById('userInput');
-const addButton = document.querySelector('button');
+const addButton = document.getElementById('addButton');
 const groceryList = document.getElementById('groceryList');
+const clearButton = document.getElementById('clearButton')
 
 function addItem() {
     const newItem = document.createElement('li')
@@ -13,3 +14,9 @@ function addItem() {
 }
 
 addButton.addEventListener('click', addItem)
+
+function clearList() {
+    groceryList.innerHTML = ''
+}
+
+clearButton.addEventListener('click', clearList)

@@ -14,3 +14,7 @@ html {
 li {
     margin-left: 10px;
 }
+
+#clearButton {
+    margin-top: 15px;
+}
