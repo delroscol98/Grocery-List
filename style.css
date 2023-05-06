@@ -3,14 +3,14 @@ html {
     font-size: 16px;
 }
 
-body {
-    background-color: linear-gradient(235deg, red);
-}
-
 #groceryList {
     border: 1px solid black;
     border-radius: 10px;
     height: 300px;
     width: 300px;
     margin-top: 1rem;
+}
+
+ul {
+    margin-left: 10px;
 }
